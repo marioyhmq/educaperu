@@ -1,0 +1,218 @@
+.galeria {
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .galeria-titulo {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #3e0079;
+  }
+  
+  .galeria-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .galeria-grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria-grid img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .modal-contenido {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    animation: zoom 0.4s ease;
+  }
+  
+  @keyframes zoom {
+    from { transform: scale(0.5); }
+    to { transform: scale(1); }
+  }
+  
+  .cerrar {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .modulos-section {
+    background: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .modulos-titulo {
+    font-size: 2.2rem;
+    color: #4b0082;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .modulos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .modulo-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .modulo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  }
+  
+  .modulo-card h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .modulo-card p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+
+  /* beneficios de capacitarse */
+  .beneficios {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .beneficios__titulo {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .beneficios__subtitulo {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .beneficios__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .beneficio__card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 240px;
+    transition: transform 0.3s ease;
+  }
+  
+  .beneficio__card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .beneficio__card i {
+    font-size: 40px;
+    color: #6A0DAD; /* morado EducaPeru */
+    margin-bottom: 1rem;
+  }
+  
+
+  /* TALLER */
+  .section-taller {
+    padding: 3rem 1rem;
+    background: #fff;
+    border-radius: 30px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  .taller-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .taller-image img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .taller-info {
+    max-width: 500px;
+  }
+  .taller-info h2 {
+    font-size: 1.8rem;
+    color: #dc143c;
+    margin-bottom: 1rem;
+  }
+  .resaltado {
+    font-weight: bold;
+    color: #facc15;
+  }
+  .taller-info ul {
+    padding-left: 1rem;
+    list-style: disc;
+  }
+  .taller-info li {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  .btn-taller {
+    display: inline-block;
+    background: #dc143c;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  .btn-taller:hover {
+    background: #a30f2a;
+  }

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educaperu</title>
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/red.css">
+  <link rel="stylesheet" href="./css/carata.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/contactos.css">
+  <link rel="stylesheet" href="./css/socials.css">
+  <link rel="shortcut icon" href="./assets/log.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <script async src="https://kit.fontawesome.com/567102f065.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+
+      <div class="logo-container">
+        <a href="index.html">
+        <img src="assets/logo.png" alt="" id="logo">
+        <span>Educaperu</span>
+        </a>
+      </div>
+
+
+      <div id="btn-menu" onclick="llamar()">
+        <label class="fa-solid fa-bars" id="menu"></label>
+      </div>
+      <nav class="botonera" id="botonera">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li class="dropdown">
+            <a href="./index.html">Servicios</a>
+            <div class="dropdown-content">
+              <a href="./Gestion.html">Gestion empresarial</a>
+              <a href="./capacitacion.html">Capacitacion profesional</a>
+              <a href="./MarcaPersonal.html">Marca personal</a>
+              <a href="./marketing.html">Marketing Digital</a>
+              <a href="./terciarizacion.html">Terciarizacion estrategica</a>
+            </div>
+          </li>
+          <li><a href="./blogs.html">Blogs</a></li>
+          <li><a href="./cursos.html">Cursos</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Slider -->
+  <div class="slider">
+    <button class="slider-arrow left" onclick="prevSlide()">&#10094;</button>
+    <div class="slides" id="slides">
+
+      <div class="slide">
+        <img src="assets/slide1.jpeg" alt="Slide 1">
+        <div class="slide-content">
+          <h2>Mejoramos tu Gestión empresarial</h2>
+          <div class="button-group">
+            <button>Contáctanos</button>
+            <button>Ver más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="assets/slide2.jpeg" alt="Slide 2">
+        <div class="slide-content">
+          <h2>Capacitación profesional</h2>
+          <div class="button-group">
+            <button>Contáctanos</button>
+            <button>Ver más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="assets/slide3.jpeg" alt="Slide 3">
+        <div class="slide-content">
+          <h2>Potenciamos tu Marca personal</h2>
+          <div class="button-group">
+            <button>Contáctanos</button>
+            <button>Ver más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="assets/slide4.jpeg" alt="Slide 4">
+        <div class="slide-content">
+          <h2>Especialistas en Marketing Digital</h2>
+          <div class="button-group">
+            <button>Contáctanos</button>
+            <button>Ver más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="assets/slide3.jpeg" alt="Slide 5">
+        <div class="slide-content">
+          <h2>Terciarización estratégica</h2>
+          <div class="button-group">
+            <button>Contáctanos</button>
+            <button>Ver más</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button class="slider-arrow right" onclick="nextSlide()">&#10095;</button>
+  </div>
+
+<!-- Inicio -->
+<div class="redes">
+  <section class="social-langer">
+    <div class="social-wrappee" id="slider-track">
+      <img src="assets/banner-1.png" alt="banner">
+      <img src="assets/banner-2.png" alt="banner">
+      <img src="assets/banner-3.png" alt="banner">
+      <img src="assets/banner-4.png" alt="banner">
+      <img src="assets/banner-5.png" alt="banner">
+      <img src="assets/banner-6.png" alt="banner">
+      <img src="assets/banner-7.png" alt="banner">
+      <img src="assets/banner-8.png" alt="banner">
+      <img src="assets/banner-9.png" alt="banner">
+      <img src="assets/banner-10.png" alt="banner">
+    </div>
+  </section>
+</div>
+
+<!-- boton de wsap moderno -->
+
+<!-- Botón flotante -->
+<div class="whatsapp-float" id="wa-float">
+  <i class="fab fa-whatsapp"></i>
+</div>
+
+<!-- Ventana simulada -->
+<div class="wa-chat" id="wa-chat">
+  <div class="wa-header">
+    <span>EducaPeru Asesor</span>
+    <span class="cerrar-chat" id="cerrar-chat">×</span>
+  </div>
+  <div class="wa-body" id="wa-body">
+    <div class="wa-msg bot">¡Hola! ¿En qué puedo ayudarte hoy?</div>
+  </div>
+  <div class="wa-input">
+    <input type="text" id="wa-input-text" placeholder="Escribe tu mensaje..." />
+    <button id="enviar-msg">Enviar</button>
+  </div>
+</div>
+
+
+
+
+
+<section class="contacto" id="contacto">
+    <h2>Contáctanos</h2>
+    <p class="descripcion">¿Tienes dudas o quieres más información? ¡Estamos para ayudarte!</p>
+  
+    <div class="contenido-contacto">
+      <!-- Información -->
+      <div class="info-contacto">
+        <p><i class="fas fa-map-marker-alt"></i> Calle Mártir Olaya 129, Miraflores</p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:contacto@educaperu.pe">informes@educainstitute.pe</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/51995619930" target="_blank">+51 995 660 930</a></p>
+        <p><i class="fas fa-clock"></i> Atención: Lunes a Sábado - 9:00 AM a 6:00 PM</p>
+      </div>
+  
+      <!-- Formulario -->
+      <form class="formulario-contacto" id="formulario">
+        <input type="text" placeholder="Tu nombre" required />
+        <input type="email" placeholder="Tu correo electrónico" required />
+        <textarea placeholder="Escribe tu mensaje..." rows="5" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+  
+    <!-- Mapa -->
+    <div class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.8280186228415!2d-77.03103472405414!3d-12.132541488171482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c89de4a3872f%3A0xf116a0a9fc8a98cb!2sCalle%20M%C3%A1rtir%20Olaya%20129%2C%20Miraflores!5e0!3m2!1ses!2spe!4v1711920912345!5m2!1ses!2spe"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </section>
+  
+
+
+
+<!-- inicio del footer -->
+<footer class="main-footer">
+  <div class="footer-container">
+    
+    <div class="footer-brand">
+      <div class="logo-text">
+        <img src="./assets/logo.png" alt="Logo EducaPeru" class="footer-logo" />
+        <h2>EducaPeru Institute</h2>
+      </div>
+      <p>Formamos, impulsamos y conectamos tu marca con el éxito.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Servicios</h3>
+      <ul>
+        <li><a href="./Gestion.html">Gestión Empresarial</a></li>
+        <li><a href="./capacitacion.html">Capacitación Profesional</a></li>
+        <li><a href="./marketing.html">Marketing Digital</a></li>
+        <li><a href="./MarcaPersonal.html">Marca Personal</a></li>
+        <li><a href="./terciarizacion.html">Tercerización Estratégica</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contáctanos</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Calle Mártir Olaya 129, Miraflores</p>
+      <p><i class="fas fa-envelope"></i> informes@educainstitute.pe</p>
+      <p><i class="fas fa-phone-alt"></i> +51 995 660 480</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Síguenos</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 EducaPeru Institute. Todos los derechos reservados.</p>
+  </div>
+</footer>
+<script>
+    document.getElementById("formulario").addEventListener("submit", function (e) {
+  e.preventDefault();
+  alert("¡Tu mensaje ha sido enviado correctamente!");
+  this.reset();
+});
+
+</script>
+
+
+
+  <script src="js/script.js"></script>
+  <script src="js/cursos.js"></script>
+  <script src="js/btn-wsap.js"></script>
+</body>
+</html>

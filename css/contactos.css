@@ -1,0 +1,81 @@
+.contacto {
+    background-color: #fefefe;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contacto h2 {
+    font-size: 2.5rem;
+    color: #4b0082;
+    margin-bottom: 10px;
+  }
+  
+  .descripcion {
+    margin-bottom: 30px;
+    color: #444;
+  }
+  
+  .contenido-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .info-contacto {
+    flex: 1;
+    min-width: 280px;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .info-contacto p {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .info-contacto i {
+    margin-right: 10px;
+    color: #4b0082;
+  }
+  
+  .formulario-contacto {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+  }
+  
+  .formulario-contacto button {
+    padding: 12px;
+    border: none;
+    background-color: #4b0082;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .formulario-contacto button:hover {
+    background-color: #6c0db4;
+  }
+  
+  .mapa {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  
